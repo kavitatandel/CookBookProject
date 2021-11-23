@@ -15,15 +15,14 @@
 
 * {
 	/* border: 1px red solid; */
+	margin: 0px;
+	padding: 0px;
 }
 
 html {
 	font-size: 16px;;
 }
 
-
-	font-size: 16px;
-}
 
 body {
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
@@ -51,9 +50,9 @@ body {
 }
 
 
-.card {
-	/* border: 2px rgba(0, 0, 0, 0.064) solid; */
-}
+/* .card {
+	border: 2px rgba(0, 0, 0, 0.064) solid;
+} */
 
 
 .img-fluid {
