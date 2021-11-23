@@ -1,3 +1,7 @@
+
+/* COUNTRY FOODS STYLES : START */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -8,17 +12,23 @@
 /* COUNTRY FOODS STYLES : START */
 
 
+
 * {
 	/* border: 1px red solid; */
 }
 
 html {
+	font-size: 16px;;
+}
+
+
 	font-size: 16px;
 }
 
 body {
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
+
 
 .container {
 	/* background-color: purple; */
@@ -32,15 +42,19 @@ body {
 }
 
 [class*="col"] {
+
 	/* background-color: yellow;*/
 	/* border: 3px black solid; */
+
 	padding: 10px;
 
 }
 
+
 .card {
 	/* border: 2px rgba(0, 0, 0, 0.064) solid; */
 }
+
 
 .img-fluid {
 	max-width: 100%;
@@ -49,6 +63,25 @@ body {
 }
 
 .h1, .h2, .h3 {
+
+	font-family: 'Patua One', Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+	font-size: 3.5rem;
+}
+
+.h2 {
+	font-size: 1;
+	text-transform: uppercase;
+	background-color: orange;
+	padding: 5px;
+	text-align: center;
+}
+
+.h3 {
+	font-size: 2;
+
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
@@ -74,5 +107,6 @@ body {
 .h3 {
 	font-size: 1.6rem;
 	font-weight: 600;
+
 }
 /* COUNTRY FOODS STYLES : END */
