@@ -14,14 +14,14 @@
 
 
 * {
-	/* border: 1px red solid; */
+	border: 1px red solid;
 }
 
 html {
 	font-size: 16px;;
 }
 
-
+body{
 	font-size: 16px;
 }
 
@@ -52,7 +52,7 @@ body {
 
 
 .card {
-	/* border: 2px rgba(0, 0, 0, 0.064) solid; */
+	border: 2px rgba(0, 0, 0, 0.064) solid;
 }
 
 
