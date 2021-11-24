@@ -1,0 +1,201 @@
+/* COUNTRY FOODS STYLES : START */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-color:#757472;  */
+    background-color:white; 
+
+}
+
+h1,h4,p{
+    font-family: 'Raleway', sans-serif;
+}
+
+.mainDivRecipeDescBreakfast{   
+    width:auto;   
+}
+
+.recipeDescImageAndTitleBreakfast{  
+    width:100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.recipeDescCountryImageBreakfast{
+    display: inline-block;    
+    width:auto;
+    vertical-align: middle;
+}
+
+.recipeDescRecipeTitleBreakfast{
+    display: inline-block;  
+    width:auto;    
+    vertical-align: middle;
+}
+
+
+.tableFlageAndTitle{
+    margin-left: 20px;
+    width:100%;
+
+    /*added 23.11*/
+    display: inline-block;  
+}
+
+.imgCountry{
+    display: inline-block;  
+    text-align: left;
+}
+
+.countryName{
+    display: inline-block;  
+    text-align: left;
+}
+
+.recipeDescRecipeTitleBreakfast td{
+    padding: 10px;
+    text-align: center;    
+}
+
+.tableFlageAndTitle tr:first-child{    
+    /* opacity: 0.5; */
+    /* color:white; */
+    color:orange;
+    text-transform: uppercase;
+}
+
+.tableFlageAndTitle tr:first-child td:first-child{    
+    opacity: 0.85;    
+}
+
+.recipeDescIndiaFlagBreakfast{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.recipeDescCountryImageBreakfast img{
+    width: 450px;
+    height: 300px;
+}
+
+.recipeType{
+    color: #e0a122;
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.recipeName{
+    color: rgb(251, 169, 5);
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 5px;    
+    text-decoration: underline;
+}
+
+.shareBasic {
+    /* padding:40px 0;     */
+    width:85%;
+    color:blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 40px 0px 20px 80px;
+    padding-left: 400px;
+    text-align: right;
+    /* margin-right: 12%; */
+  }
+
+  .shareBasic .social {  
+    /* padding-bottom:5px; */  
+   
+    display:inline-block;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .shareBasic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    /* opacity:0.75; */
+    background-color: rgb(196, 194, 190);    
+  }
+  
+  .shareBasic .social > a:hover {
+    opacity:0.7;
+  }
+
+.social label{
+    color:rgb(236, 170, 47);
+    vertical-align: middle;
+    padding-right: 10px;
+    font-weight:600;
+}
+
+.gridContainerRecipeDesc {
+    /* width:80%; */
+    width:80%;
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-column-gap: 3px;
+    row-gap: 0px;
+    /* grid-row-gap:0px; */
+    grid-template-columns: auto auto;      
+    /* border:1px solid rgba(117, 116, 114,0.8);    
+    background-color: rgb(117, 116, 114); */
+    border:2px solid rgba(248, 208, 129,0.8);    
+    background-color: rgb(248, 208, 129);
+    justify-content: center;
+  }
+  
+  .gridItem{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+    margin: 1px 0px;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+
+  }
+
+  .tableIngredients{
+      width: 100%;
+  }
+
+  .tableIngredients td{ 
+    padding: 0px 30px 0px 0px;
+  }
+
+  .mainGridMethod{
+      width:100%;
+      display: grid;
+      grid-template-columns: auto;
+  }
+
+  .method{
+      padding-bottom: 0px;
+  }
+
+  
