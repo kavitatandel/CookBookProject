@@ -1,115 +1,180 @@
-
-/* COUNTRY FOODS STYLES : START */
-/* @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap'); */
-
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/* @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap'); */
-
-
-
-/* COUNTRY FOODS STYLES : START */
-
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-
-	/* border: 1px red solid; */
-	margin: 0px;
-	padding: 0px;
-
+  /* border: 1px red solid; */
+  margin: 0px;
+  padding: 0px;
 }
 
 html {
-	font-size: 16px;;
+  font-size: 16px;
 }
-
 
 body {
-	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
+/*  HEADER STYLES  */
+
+nav,
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 20px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav a,
+.nav-link {
+  font-family: "Raleway", sans-serif;
+  margin-left: 30px;
+  color: white;
+  font-size: 24px;
+}
+
+nav a:hover,
+.nav-link a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  font-weight: 64px;
+  background-color: black;
+  border-bottom: orange solid 5px;
+  text-align: justify;
+}
+
+#Logo {
+  width: 90px;
+  height: 90px;
+}
+
+#homeHeader {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+}
+#homeSubHeader {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  color: white;
+}
+
+#container-inline {
+  display: flex;
+  flex-direction: row;
+  float: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.homeFlag {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 50px;
+}
+
+.homeFlag a {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+}
+
+.homeFlag a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+.homeFlag embed {
+  border-radius: 50%;
+}
+
+/*  COUNTRY PAGE - BOOTSTRAP  */
 
 .container {
-	/* background-color: purple; */
-	padding: 10px;
+  /* background-color: purple; */
+  padding: 10px;
 }
 
 .row {
-	/* background-color: red; */
-	padding: 15px;
-
+  /* background-color: red; */
+  padding: 15px;
 }
 
 [class*="col"] {
+  /* background-color: yellow;*/
+  /* border: 3px black solid; */
 
-	/* background-color: yellow;*/
-	/* border: 3px black solid; */
-
-	padding: 10px;
-
+  padding: 10px;
 }
-
-
 
 /* .card {
 	border: 2px rgba(0, 0, 0, 0.064) solid;
 } */
 
-
-
 .img-fluid {
-	max-width: 100%;
-	height: auto;
-	margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-.h1, .h2, .h3 {
-
-	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+.h1,
+.h2,
+.h3 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 .h1 {
-	font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 
 .h2 {
-	font-size: 1;
-	text-transform: uppercase;
-	background-color: orange;
-	padding: 5px;
-	text-align: center;
+  font-size: 1;
+  text-transform: uppercase;
+  background-color: orange;
+  padding: 5px;
+  text-align: center;
 }
 
 .h3 {
-	font-size: 2;
+  font-size: 2;
 
-	font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
-
 
 .h1 {
-	font-size: 3.5rem;
-	font-weight: 800;
+  font-size: 3.5rem;
+  font-weight: 800;
 }
 
 .h2 {
-	font-size: 1.2rem;
-	text-transform: uppercase;
-	background-color: rgb(255, 184, 51);
-	border: 2px white solid;
-	border-radius: 3px;
-	padding: 3%;
-	text-align: center;
-	font-weight:400;
-	letter-spacing: .2rem;
-	margin-bottom: 0px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: rgb(255, 184, 51);
+  border: 2px white solid;
+  border-radius: 3px;
+  padding: 3%;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0px;
 }
 
 .h3 {
-	font-size: 1.6rem;
-	font-weight: 600;
-
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 /* COUNTRY FOODS STYLES : END */
