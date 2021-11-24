@@ -33,19 +33,21 @@ h1,h4,p{
     display: inline-block;
     width:auto;   
     vertical-align: middle;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .recipeDescRecipeTitleStarter{
     display: inline-block;
-    width:40%;   
+    /* width:40%; commented at 6 pm   */
+    width:100%;
     vertical-align: middle;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 
 .tableFlageAndTitle{
-    width:40%;   
+    /* width:40%;  commented at 6 pm  */
+    width:auto;
     display: inline-block;
 }
 
@@ -150,7 +152,9 @@ h1,h4,p{
     display: grid;  
     grid-column-gap: 0px;
     row-gap: 0px; 
-    grid-template-columns: auto auto;    
+    /* minmax(0, 1fr)- track's flex factor. here it takes
+     remaining portion of the track when overflow the content     */
+    grid-template-columns: auto minmax(0, 1fr);  
     background-color: white;
     justify-content: center;
     margin-left: 10%;
