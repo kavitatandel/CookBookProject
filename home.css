@@ -26,16 +26,21 @@ header {
   flex-direction: row;
   font-weight: 64px;
   background-color: black;
-  border-bottom: orange solid 3px;
+  border-bottom: orange solid 5px;
   text-align: justify;
 }
 
-#Logo {
+/* #Logo {
   width: 175px;
   height: 175px;
+} */
+
+#Logo {
+  width: 70px;
+  height: 70px;
 }
 
-main {
+#home-main {
   background-image: url("Images/home-background.png");
   background-size: cover;
   width: 100%;
