@@ -9,6 +9,7 @@
 
 body{    
     background-color:white;
+    
 }
 
 h1,h4,p{
@@ -34,6 +35,7 @@ h1,h4,p{
     width:auto;   
     vertical-align: middle;
     margin-right: 15%;
+    margin-top: 50px;
 }
 
 .recipeDescRecipeTitleStarter{
@@ -60,9 +62,11 @@ h1,h4,p{
 }
 
 .countryName h5{
-    padding: 0px;
+    padding-left: 10px;
+    padding-top: 65px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
+
 }
 
 .recipeDescRecipeTitleStarter td{
@@ -71,16 +75,18 @@ h1,h4,p{
 }
 
 .recipeDescIndiaFlagStarter{
-    width: 50px;
-    height: 50px;  
+   margin-top: 70px;
+    /* width: 150px; */
+    height: 100px;   
 }
 
 .recipeDescCountryImageStarter img{
-    width: 450px;
-    height: 310px;
+    /* width: 450px; */
+    height: 360px;
 }
 
 .recipeType h4{
+    padding-top: 40px;
     text-align: left;    
     color:orange;   
     opacity: 1;
@@ -91,8 +97,9 @@ h1,h4,p{
 
 .recipeName{   
     color:black;
-    opacity: 1;  
+    opacity: 0.9;  
     letter-spacing: 5px; 
+    
    
 }
 
