@@ -1,22 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-nav {
+/*  HEADER STYLES  */
+nav,
+.nav {
   display: flex;
   flex-direction: row;
   font-size: 20px;
   padding: 20px;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-nav a {
+nav a,
+.nav-link {
   font-family: "Raleway", sans-serif;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-left: 30px;
   color: white;
   font-size: 24px;
 }
 
-nav a:hover {
+nav a:hover,
+#topnav a:hover {
   color: orange;
   text-decoration: none;
 }
@@ -31,6 +36,8 @@ header {
 }
 
 #Logo {
-  width: 175px;
-  height: 175px;
+  width: 70px;
+  height: 70px;
 }
+
+/*  END HEADER STYLES */
