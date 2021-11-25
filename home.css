@@ -40,8 +40,7 @@ header {
   height: 70px;
 }
 
-
-main {
+#home-main {
   background-image: url("Images/home-background.png");
   background-size: cover;
   width: 100%;
