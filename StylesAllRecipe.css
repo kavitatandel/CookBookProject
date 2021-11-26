@@ -82,3 +82,7 @@ body {
   .h6{
     color:rgb(255, 184, 51);
 }
+
+.h5{
+  font-weight: 700;
+}
