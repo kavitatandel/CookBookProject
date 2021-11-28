@@ -12,21 +12,48 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="styleFooter.css" />
+    <link rel="stylesheet" href="style-countryfoods.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <img id="Logo" src="Images/Logo.png" alt="logo" />
-        <a href="About.html">All Recipes</a>
-        <a href="CountryFoodIndia.html">India</a>
-        <a href="CountryFoodUK.html">UK</a>
-        <a href="CountryFoodPoland.html">Poland</a>
-        <a href="CountryFoodUSA.html">USA</a>
-        <a href="About.html">About</a>
-      </nav>
+    <header class="container-fluid">
+      <!-- bootstrap nav -->
+      <div id="topnav" class="nav justify-content-center align-items-center">
+        <a href="index.html" class="nav-link"
+          ><img id="Logo" src="Images/Logo.png" alt="logo"
+        /></a>
+        <a href="AllRecipe.html" class="nav-link">All Recipes</a>
+        <a href="CountryFoodIndia.html" class="nav-link">India</a>
+        <a href="CountryFoodUK.html" class="nav-link">UK</a>
+        <a href="CountryFoodPoland.html" class="nav-link">Poland</a>
+        <a href="CountryFoodUSA.html" class="nav-link">USA</a>
+        <a href="About.html" class="nav-link">About</a>
+      </div>
     </header>
+<!-- new version -->
 
-    <main id="home-main">
+    <main>
+      <div id="main2-all">
+
+      <h1>Discover the World of Spicy Food!</h1>
+
+      <h2>Select a country to get started:</h2>
+        <div id="main2-flags">
+          <a href="CountryFoodIndia.html" class="main2-cell"> <embed src="Images/india.svg" >India</a>
+
+          <a href="CountryFoodUK.html" class="main2-cell"> <embed src="Images/united-kingdom.svg" >UK</a>
+
+          <a href="CountryFoodPoland.html" class="main2-cell"> <embed src="Images/poland.svg" >Poland</a>
+
+          <a href="CountryFoodUSA.html" class="main2-cell"> <embed src="Images/united-states.svg" >USA</a>
+          </div>
+      </div>
+    </main>
+
+
+    <!-- old version -->
+    <!-- <main id="home-main">
       <h1 id="homeHeader">Discover the World of Spicy Food!</h1>
 
       <h2 id="homeSubHeader">Select a country to get started:</h2>
@@ -45,6 +72,30 @@
           <a href="#"> <embed src="Images/united-states.svg" />USA</a>
         </div>
       </div>
-    </main>
-  </body>
-</html>
+    </main> -->
+
+	<!-- FOOTER -->
+	<div class="footer-basic">
+		<footer>
+			<div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+						class="icon ion-social-snapchat"></i></a><a href="#"><i
+						class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a>
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="#">Home</a></li>
+				<li class="list-inline-item"><a href="#">Services</a></li>
+				<li class="list-inline-item"><a href="#">About</a></li>
+				<li class="list-inline-item"><a href="#">Terms</a></li>
+				<li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+			</ul>
+			<p class="copyright">Spiced World © 2021</p>
+		</footer>
+	</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>`
